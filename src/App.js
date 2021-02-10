@@ -1,9 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
+//import reset.scss
+import './App.scss';
+import {Template} from "./components/template/Template";
 
 function App() {
   return (
     <div className="App">
+      <Template />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
