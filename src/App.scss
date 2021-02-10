@@ -1,3 +1,10 @@
+html { font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(0, 74, 98);
+}
+
 .App {
   text-align: center;
 }
@@ -20,7 +27,6 @@
 }
 
 .App-header {
-  background-color: red;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
