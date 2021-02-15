@@ -1,14 +1,21 @@
-import logo from './logo.svg';
+
 //import reset.scss
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import {Header} from "./components/header/Header";
-import {WelcomingSection} from "./components/welcomingSection/WelcomingSection"
+import {OpeningSection} from "./components/openingSection/OpeningSection"
+import {Footer} from "./components/footer/Footer";
+import React from "react";
+
 function App() {
   return (
     <div className="App">
       <Header />
+      <OpeningSection />
+
       <section className="App-header">
-          <WelcomingSection/>
+
+
         <p>
           ggg
         </p>
@@ -20,6 +27,7 @@ function App() {
           Learn React
         </a>
       </section>
+      <Footer />
     </div>
   );
 }

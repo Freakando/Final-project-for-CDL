@@ -5,7 +5,8 @@ import("./Header.scss");
 
 export const Header = () =>
     <header className={"header--header"}>
+
+        <div className={"logo"}></div>
         <Nav />
-        <h1></h1>
 
     </header>

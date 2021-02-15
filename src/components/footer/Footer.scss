@@ -1,0 +1,76 @@
+.footer--section {
+  background-color: rgb(34, 34, 34);
+  width: 100vw;
+  height: 400px;
+  color: white;
+
+  .icon--box {
+    padding: 24px 0 40px;
+
+    .icon--list {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      align-items: center;
+
+      li{
+        display: inline-block;
+        margin: 0 10px 0 10px;
+      }
+      .fb-icon{
+        color: royalblue;
+        &:hover {
+          color: #3345c4;
+        }
+      }
+      .inst-icon{
+        color: rgb(195, 42, 163);
+        &:hover {
+          color: rgb(165, 38, 137);
+        }
+      }
+      .pint-icon{
+        color: #a40a0e;
+        &:hover {
+          color: #90080c;
+        }
+      }
+
+
+    }
+
+  }
+
+  .info--outsideBox {
+    display: flex;
+    justify-content: center;
+
+    .info--insideBox {
+      max-width: 1200px;
+
+      .icon--list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-transform: capitalize;
+        font-size: 16px;
+
+        li {
+          padding: 0 20px 0 20px;
+        }
+
+      }
+    }
+  }
+
+
+
+
+  .devInfo--box {
+
+  }
+
+
+}
