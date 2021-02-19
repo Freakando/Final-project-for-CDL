@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tokio ",
+      "price": "2100zł",
+      "url": "https://www.bydurieux.com/895-home_default/shelves-milano.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tokio Open",
+      "price": "1550zł",
+      "url": "https://www.bydurieux.com/764-home_default/open-shelves-milano.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tokio Oak",
+      "price": "2900zł",
+      "url": "https://www.bydurieux.com/1170-home_default/shelves-milano-in-oak.jpg"
+    },
+
+    {
+      "id": 4,
+      "name": "Tokio Oak Open",
+      "price": "2800zł",
+      "url": "https://www.bydurieux.com/762-home_default/open-shelves-milano-in-oak.jpg"
+    }
+
+
+  ]
+}

@@ -3,7 +3,7 @@ import "./Nav.scss";
 import {Header} from "./Header";
 
 const Nav = (props) => {
-    const[showMenu, setShowMenu] = useState(true);
+    const[showMenu, setShowMenu] = useState(false);
     // const[isMobile, setIsMobile] = useState(true);
 
     const handleShowMenu = e => {

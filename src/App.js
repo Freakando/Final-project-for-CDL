@@ -6,13 +6,15 @@ import {Header} from "./components/header/Header";
 import {OpeningSection} from "./components/openingSection/OpeningSection"
 import {Footer} from "./components/footer/Footer";
 import React from "react";
+import {Slider} from "./components/slider/Slider";
+import {Product} from "./components/product/Product";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header />
       <OpeningSection />
-
+      <Slider />
       <section className="App-header">
 
 
@@ -27,6 +29,8 @@ function App() {
           Learn React
         </a>
       </section>
+        <Product />
+
       <Footer />
     </div>
   );
