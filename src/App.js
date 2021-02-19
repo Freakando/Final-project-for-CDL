@@ -2,10 +2,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import {Header} from "./components/header/Header";
-import {OpeningSection} from "./components/openingSection/OpeningSection"
 import {Footer} from "./components/footer/Footer";
 import React from "react";
-import {Product} from "./components/product/Product";
 import {SingleProductSection} from "./components/productForm/SingleProductSection";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {HomePage} from "./components/homePage/HomePage";

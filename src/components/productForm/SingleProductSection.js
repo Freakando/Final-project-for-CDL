@@ -1,6 +1,6 @@
 import React, {useEffect, useState } from "react";
 import "./SingleProductSection.scss";
-import {ProductForm} from "./ProductForm";
+
 
 
 
@@ -27,13 +27,13 @@ export const SingleProductSection = (props) => {
 
     const changeColor = (e) => {
         setExtColor(e.target.value);
-        if (extColor === "lightblue") {
+        if (e.target.value === "lightblue") {
             document.getElementById("color").src= data.lightblue;
-        } else if(extColor === "red") {
+        } else if(e.target.value === "red") {
             document.getElementById("color").src= data.red;
-        } else if(extColor === "black") {
+        } else if(e.target.value === "black") {
             document.getElementById("color").src= data.black;
-        } else if(extColor === "white") {
+        } else if(e.target.value === "white") {
             document.getElementById("color").src= data.white;
         }
     }
@@ -52,7 +52,7 @@ export const SingleProductSection = (props) => {
 
                     <div className={"productPicture--outerBox"}>
                         <div className={"productPicture--innerBox"}>
-                            <img src={data.url}/>
+                            <img className={"sglPageProd-picture"} src={data.url}/>
                             <img id="color" src={data.red} alt="djsnvk"/>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ export const SingleProductSection = (props) => {
 
                 </div>
 
-                <form>
+                <form className={"form-box"}>
                     <h1>{extColor}</h1>
 
                     <select value={extColor} onChange={changeColor}>
