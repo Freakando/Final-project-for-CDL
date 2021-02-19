@@ -4,28 +4,41 @@
       "id": 1,
       "name": "Tokio ",
       "price": "2100zł",
-      "url": "https://www.bydurieux.com/895-home_default/shelves-milano.jpg"
+      "url": "https://www.bydurieux.com/895-home_default/shelves-milano.jpg",
+      "red": "https://www.bydurieux.com/img/furnitureconfigurator/1_22.jpg",
+      "white": "https://www.bydurieux.com/img/furnitureconfigurator/1_1.jpg",
+      "lightblue": "https://www.bydurieux.com/img/furnitureconfigurator/1_25.jpg",
+      "black": "https://www.bydurieux.com/img/furnitureconfigurator/1_19.jpg"
     },
     {
       "id": 2,
       "name": "Tokio Open",
       "price": "1550zł",
-      "url": "https://www.bydurieux.com/764-home_default/open-shelves-milano.jpg"
+      "url": "https://www.bydurieux.com/764-home_default/open-shelves-milano.jpg",
+      "red": "https://www.bydurieux.com/img/furnitureconfigurator/1_22.jpg",
+      "white": "https://www.bydurieux.com/img/furnitureconfigurator/1_1.jpg",
+      "lightblue": "https://www.bydurieux.com/img/furnitureconfigurator/1_25.jpg",
+      "black": "https://www.bydurieux.com/img/furnitureconfigurator/1_19.jpg"
     },
     {
       "id": 3,
       "name": "Tokio Oak",
       "price": "2900zł",
-      "url": "https://www.bydurieux.com/1170-home_default/shelves-milano-in-oak.jpg"
+      "url": "https://www.bydurieux.com/1170-home_default/shelves-milano-in-oak.jpg",
+      "red": "https://www.bydurieux.com/img/furnitureconfigurator/1_22.jpg",
+      "white": "https://www.bydurieux.com/img/furnitureconfigurator/1_1.jpg",
+      "lightblue": "https://www.bydurieux.com/img/furnitureconfigurator/1_25.jpg",
+      "black": "https://www.bydurieux.com/img/furnitureconfigurator/1_19.jpg"
     },
-
     {
       "id": 4,
       "name": "Tokio Oak Open",
       "price": "2800zł",
-      "url": "https://www.bydurieux.com/762-home_default/open-shelves-milano-in-oak.jpg"
+      "url": "https://www.bydurieux.com/762-home_default/open-shelves-milano-in-oak.jpg",
+      "red": "https://www.bydurieux.com/img/furnitureconfigurator/1_22.jpg",
+      "white": "https://www.bydurieux.com/img/furnitureconfigurator/1_1.jpg",
+      "lightblue": "https://www.bydurieux.com/img/furnitureconfigurator/1_25.jpg",
+      "black": "https://www.bydurieux.com/img/furnitureconfigurator/1_19.jpg"
     }
-
-
   ]
 }
