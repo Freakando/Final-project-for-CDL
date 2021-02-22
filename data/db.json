@@ -33,12 +33,28 @@
     {
       "id": 4,
       "name": "Tokio Oak Open",
-      "price": "2800zł",
+      "price": 2800,
       "url": "https://www.bydurieux.com/762-home_default/open-shelves-milano-in-oak.jpg",
-      "red": "https://www.bydurieux.com/img/furnitureconfigurator/1_22.jpg",
-      "white": "https://www.bydurieux.com/img/furnitureconfigurator/1_1.jpg",
-      "lightblue": "https://www.bydurieux.com/img/furnitureconfigurator/1_25.jpg",
-      "black": "https://www.bydurieux.com/img/furnitureconfigurator/1_19.jpg"
+      "colors": [
+        {
+          "name": "red",
+          "image": "https://www.bydurieux.com/img/furnitureconfigurator/1_22.jpg",
+          "price": 0
+        },
+        {
+          "name": "white",
+          "image": "https://www.bydurieux.com/img/furnitureconfigurator/1_1.jpg",
+          "price": 100
+        },
+        {
+          "name": "lightblue",
+          "image": "https://www.bydurieux.com/img/furnitureconfigurator/1_25.jpg"
+        },
+        {
+          "name": "black",
+          "image": "https://www.bydurieux.com/img/furnitureconfigurator/1_19.jpg"
+        }
+      ]
     }
   ]
 }

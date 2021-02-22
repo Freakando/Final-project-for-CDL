@@ -8,6 +8,7 @@ import {SingleProductSection} from "./components/productForm/SingleProductSectio
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {HomePage} from "./components/homePage/HomePage";
 
+
 const App = () => {
     return (
         <Router>
@@ -19,7 +20,7 @@ const App = () => {
                     </Route>
                     <Route path="/singleproductpage/:id" component={SingleProductSection}/>
                 </Switch>
-                <Footer/>
+
             </div>
         </Router>
     );
